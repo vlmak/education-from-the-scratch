@@ -1,0 +1,34 @@
+.main-link {
+    color: red;
+    text-decoration: none;
+}
+
+.main-link:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main-link:active {
+    text-decoration: overline;
+}
+
+.main-link:visited {
+    color: blueviolet;
+}
+
+input {color: blue}
+input:focus {color: red}
+input:disabled {color: red}
+
+p.text:not(:empty) {
+    color: aqua
+}
+
+#maint::after {
+    content: "123";
+}
+
+p.main-text::first-letter {
+    color: green;
+}

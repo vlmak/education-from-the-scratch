@@ -1,0 +1,11 @@
+.main-text {
+    color: green;
+}
+
+#text-main {
+    color: yellow;
+}
+
+div b, div i {
+    color: red;
+}
